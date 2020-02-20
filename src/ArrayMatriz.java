@@ -6,18 +6,21 @@ public class ArrayMatriz {
 		
 		for(int i = 0; i < notasAlunos.length; i++) {
 			System.out.println();
+			System.out.println("Aluno "+i+":");
 			for (int j = 0; j < notasAlunos[i].length; j++) {
 				System.out.println(notasAlunos[j][i]);
+				
 			}
 		}
 		double soma;
 		for(int i = 0; i < notasAlunos.length; i++) {
-			System.out.println();
+			System.out.println("Aluno "+i+":");
 			soma = 0;
 			for (int j = 0; j < notasAlunos[i].length; j++) {
 				soma += notasAlunos[i][j];
 			}
 			System.out.println("A média das notas são: "+(soma/4));
+			System.out.println();
 		}
 		
 	}
