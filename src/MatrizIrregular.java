@@ -24,6 +24,6 @@ public class MatrizIrregular {
 					}
 			}
 			System.out.println("***************************************");
+			scan.close();
 	}
-		Scanner closed;
 }
