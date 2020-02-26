@@ -1,3 +1,5 @@
+package ArrayEx;
+
 
 public class MatrizTridimencional {
 

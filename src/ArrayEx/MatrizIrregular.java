@@ -1,3 +1,6 @@
+package ArrayEx;
+
+
 import java.util.Scanner;
 
 public class MatrizIrregular {

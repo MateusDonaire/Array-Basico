@@ -39,6 +39,7 @@ public class Ex1 {
 		System.out.println("Viveu aproximadamente " + mesesVividos + " meses");
 		System.out.println("e "+diasVividos + " dias.");
 
+		scan.close();
 	}
 
 }
